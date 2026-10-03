@@ -13,6 +13,8 @@ public class BankSimulator {
 
         boolean isRunning = true;
 
+        UserIdChecker();
+
         System.out.println("   \n" +
                            "Choice 1 : Check Available Balance\n"+
                            "Choice 2 : Deposit Amount\n" +
@@ -82,7 +84,6 @@ public class BankSimulator {
 
     // THIS IS AVAILABLE BALANCE CHECKING METHOD IN WHICH USER CAN CHECK THERE CURRENT BALANCE.
     public static double CheckBalance(){
-        UserIdChecker();
 
         System.out.println(" \n" +
                            "💰💰Your Available balance is: ₹"+ availableBalance+"\n" +
